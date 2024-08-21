@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!--Aquí en el header aparece todo lo que va arriba de la página-->
+    <header>
+        <nav>
+            <ul class="nav-right-section">
+                <li>
+                    <!--Link que redirige a Gmail-->
+                    <a href="https://www.google.com/intl/es-419/gmail/about/">Gmail</a>
+                </li>
+                <li>
+                    <!--Link que redirige a Google imagenes-->
+                    <a href="https://www.google.com/imghp?hl=es-419&tab=ri&ogbl">Imágenes</a>
+                </li>
+                <li class="menu-icon"></li>
+                    <!--Icono de las apps de google-->
+                        <input type="checkbox" id="apps" style="display: none;">
+                        <label for="apps">
+                            <img id="aplicaciones" src="Imagenes/apps.png" alt="Apps de google">
+                        </label>
+                        <!--Google workspace, aparece al seleccionar el icono-->
+                        <div id="apps-google">
+                            <img id="appsGoogle-img" src="Imagenes/workspace.png" alt="Workspace">
+                        </div>
+                </li>
+                <li>
+                    <!--Link que redirige a iniciar sesión-->
+                    <a href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dgoogle%2Bworkspace%2Bapps%2Bmenu%26sca_esv%3D736aef29f1ec0651%26udm%3D2%26biw%3D1536%26bih%3D791%26ei%3DajrGZuKtKuOikPIPmKqnkQo%26ved%3D0ahUKEwjiivrG44aIAxVjEUQIHRjVKaIQ4dUDCBA%26uact%3D5%26oq%3Dgoogle%2Bworkspace%2Bapps%2Bmenu%26gs_lp%3DEgxnd3Mtd2l6LXNlcnAiGmdvb2dsZSB3b3Jrc3BhY2UgYXBwcyBtZW51SJwVUJ0FWPkRcAF4AJABAJgBkgGgAf0IqgEEMC4xMLgBA8gBAPgBAZgCCKACrAbCAg0QABiABBixAxhDGIoFwgIFEAAYgATCAgoQABiABBhDGIoFwgIEEAAYHsICBhAAGAUYHsICBhAAGAgYHsICBxAAGIAEGBiYAwCIBgGSBwMxLjegB90i%26sclient%3Dgws-wiz-serp&ec=futura_gmv_dt_so_72586115_e&hl=es-419&passive=true&ifkv=Ab5oB3rBaz8CwTfiZw1uQMpvHGvMh9XXKg198D3YvJlEq98tPY_jWUZN9VV8X-ivSPIpaT6DEBjTEg&ddm=0&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                        <img src="Imagenes/logoUser.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <!--Logo principal-->
+        <section class="main-logo">
+            <img id="logo" src="Imagenes/google.gif" alt="Google Icon">
+        </section>
+        <!--Contenedor para las busquedas-->
+        <section class="main-input">
+            <div class="main-input-container">
+                <span class="search-icon"></span>
+                    <input type="text">
+                <a class="micro-icon" href=""></a>   
+            </div>
+        </section>
+        <!--Botones de Google-->
+        <section class="main-buttons">
+            <div>
+                <button>Buscar con Google</button>
+                <div>
+
+                </div>
+                <button>Me siento con suerte</button>
+            </div>
+        </section>
+        <!--Botón patita de gato-->
+        <section class="boton-interactivo">
+            <input type="checkbox" id="toggle" style="display: none;">
+            <label for="toggle">
+                <img id="boton" src="Imagenes/cat_kp_dm.gif" alt="">
+            </label>
+            <div id="patita">
+                <img id="patita-img" src="Imagenes/patita.gif" alt="patita">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!--Footer a la izquierda-->
+        <ul class="footer-left">
+            <li>
+                <!--Link publicidad de Google-->
+                <a href="https://ads.google.com/intl/es_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000131-0000000000&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+            </li>
+            <li>
+                <!--Link negocios de Google-->
+                <a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/">Negocios</a>
+            </li>
+            <li>
+                <!--Link acerca de Google-->
+                <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a>
+            </li>
+            <li>
+                <!--Link funcionalidad de Google-->
+                <a href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la búsqueda</a>
+            </li>
+        </ul>
+        <!--Footer a la derecha-->
+        <ul class="footer-right">
+            <li>
+                <!--Link privacidad de Google-->                
+                <a href="https://policies.google.com/privacy?hl=es-MX&fg=1">Privacidad</a>
+            </li>
+            <li>            
+                <!--Link condiciones de Google-->    
+                <a href="https://policies.google.com/terms?hl=es-MX&fg=1">Condiciones</a>
+            </li>
+            <li>
+                <!--Link preferencias de Google-->
+                <a href="">Preferencias</a>
+            </li>
+        </ul>
+
+    </footer>
+</body>
+</html>
